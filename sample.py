@@ -1,2 +1,0 @@
-# THIS FILE IS SAMPLE FOR TESTING GITHUB APIS
-print('hello world')
