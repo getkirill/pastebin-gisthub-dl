@@ -14,12 +14,15 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class GisthubDl {
     public static void main(String[] args) throws Exception{
-        Set<String> runMimes = Set.of("application/x-python:python %s");
+        Set<String> runMimes = Set.of(
+                "application/x-python:python %s",
+                "application/javascript:node %s"
+        );
         OkHttpClient client = new OkHttpClient();
-        Request req = new Request.Builder()
-                .url("https://api.github.com/gists/public")
-                .get()
-                .build();
+//        Request req = new Request.Builder()
+//                .url("https://api.github.com/gists/public")
+//                .get()
+//                .build();
         /*System.out.println("==PUBLIC GISTS==");
         System.out.println(client.newCall(req).execute().body().string());
         System.out.println("================");*/
