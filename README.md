@@ -1,4 +1,4 @@
-# pastebin-gisthub-dl
+# pastebin-gisthub-dl ![](https://img.shields.io/badge/status-stale-yellow)
 Pastebin &amp; Github Gists downloader &amp; runner
 
 Support:
@@ -7,7 +7,7 @@ Support:
    - [x] Download
    - [ ] Upload
    
- - [ ] Pastebin (WIP)
+ - [ ] Pastebin
    - [ ] Run
    - [ ] Download
    - [ ] Upload
